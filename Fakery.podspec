@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Fakery"
-  s.version          = "1.3.1"
+  s.version          = "2.0.0"
   s.summary          = "Swift fake data generator"
   s.homepage         = "https://github.com/vadymmarkov/Fakery"
   s.license          = {
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'Faker' => ['Resources/Locales/*.{json}']
   }
   s.source_files = 'Source/**/*'
-  s.dependency 'SwiftyJSON'
+  s.dependency 'SwiftyJSON', ' ~> 3.0'
   s.frameworks = 'Foundation'
 end
